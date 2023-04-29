@@ -13,14 +13,15 @@ A bookmarklet that adds one-keypress video playback speed settings for VODs on [
 
 I made this when I just had a newborn and it was hard for me to find any time to play video games, let alone do [my regular Twitch streams](https://twitch.tv/AlfaTrion) so I had to resort to watching VODs of my friends playing games. The only time I ended up getting to watch them was during late night feeds for the baby.
 
-Sometimes if the game was grindy or the streamer wasn't speaking or no story elements were happening, I'd want to not waste precious VOD watching time so I would want to speed things up at those times. Using the mouse (or even tabbing around with the keyboard) was too cumbersome, especially for a starving newborn who would barely make it 1 second w/o crying if I took the bottle away, so I came up with this idea.
+Sometimes if the game was grindy or the streamer wasn't speaking or no story elements were happening, I'd want to not waste precious VOD watching time so I would want to speed things up at those times. Using the mouse (or even tabbing around with the keyboard) was too cumbersome, especially while holding a starving newborn who would barely make it 1 second w/o crying if I took the bottle away, so I came up with this shortcut/hotkey idea.
 
 ## How to Use
 
 1. Create a new bookmark in your web browser of choice which allows bookmarklets, such as Google Chrome.
 1. Give the bookmark a name.
     - e.g. `script: QuickSpeedTTV`
-1. For the URL, type `javascript:` as the prefix and paste the entire script after that. Now it's a bookmarklet!
+1. For the URL, type `javascript:` as the prefix and paste the entire _minified_ script after that. Now it's a bookmarklet!
+    - `quickSpeedTTV.min.js` contains the minified script
 1. Navigate Twitch to a VOD (video on demand) page.
 1. Activate your bookmarklet as you would normally use a bookmark.
 1. Use the number pad keys as indicated in the table above.
@@ -30,22 +31,22 @@ Sometimes if the game was grindy or the streamer wasn't speaking or no story ele
 
 ## Future Updates
 
-Originally my plan was to make this a browser extension but I barely have time to code so I quickly made this script and thought a bookmarklet is good for now.
+Originally my plan was to make this a browser extension but I barely have time to code so I quickly made this script and thought a bookmarklet is good _for now_.
 
-### Current Roadmap
+### Current Roadmap Items (Unordered)
 
--   Minified version
+-   ~~Minified version~~ [v0.0.2](https://github.com/farhanjiwani/QuickSpeedTTV/releases/tag/v0.0.2)
 -   Fix jumpiness outside of full-screen view and theatre view
+-   Error handling
+-   Add icon to player controls to show script is running
+-   A way to disable the script w/o refreshing the page
 
 ### Ideal Features
 
 -   YouTube version (although `Shift + >` already works well there)
 -   Chrome and Firefox browser extension w/configurable settings
--   Error handling
 -   Less verbose in the console logs
 -   Add slower speed settings
--   Add icon to player controls to show script is running
--   A way to disable the script w/o refreshing the page
 
 ## Known Issues
 
