@@ -36,10 +36,21 @@ Originally my plan was to make this a browser extension but I barely have time t
 ### Current Roadmap Items (Unordered)
 
 -   ~~Minified version~~ [v0.0.2](https://github.com/farhanjiwani/QuickSpeedTTV/releases/tag/v0.0.2)
+-   Migrate to `terser` from `minify` to:
+    -   remove in-code aids
+    -   get better minification
+    -   increase source readability
 -   Fix jumpiness outside of full-screen view and theatre view
 -   Error handling
 -   Add icon to player controls to show script is running
 -   A way to disable the script w/o refreshing the page
+
+#### Chores
+
+-   add ESLint
+-   add Prettier
+-   add tests (any suggestions? `mocha`, `jest`?)
+-   pre-commit, pre-push hooks
 
 ### Ideal Features
 

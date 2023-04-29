@@ -1,7 +1,7 @@
 (() => {
     // Utilities //
     /**
-     * Prepend logs and help minification.
+     * Prepend logs and minification aid.
      * TODO: Add flag for debug mode only.
      * @param {String} msg - Log message.
      */

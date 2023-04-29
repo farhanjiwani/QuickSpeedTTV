@@ -31,6 +31,12 @@
     "url": "https://github.com/farhanjiwani/QuickSpeedTTV/issues"
   },
   "license": "ISC",
+  "files": [
+    "index.js",
+    "LICENSE.txt",
+    "README.md",
+    "quickSpeedTTV.min.js"
+  ],
   "devDependencies": {
     "minify": "^9.2.0"
   }
