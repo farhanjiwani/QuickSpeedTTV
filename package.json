@@ -25,10 +25,10 @@
   "author": "Farhan 'AlfaTrion' Jiwani (farhan@farhanjiwani.com)",
   "repository": {
     "type": "git",
-    "url": "https: //github.com/farhanjiwani/QuickSpeedTTV.git"
+    "url": "https://github.com/farhanjiwani/QuickSpeedTTV.git"
   },
   "bugs": {
-    "url": "https: //github.com/farhanjiwani/QuickSpeedTTV/issues"
+    "url": "https://github.com/farhanjiwani/QuickSpeedTTV/issues"
   },
   "license": "ISC",
   "devDependencies": {
